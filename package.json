@@ -1,0 +1,29 @@
+{
+  "name": "yfpr-tweets",
+  "version": "1.0.0",
+  "description": "Getting all the tweets from the @yourfirstpr twitter account",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc report",
+    "pretest": "standard",
+    "test": "echo \"There are no tests, yet.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourfirstpr/tweets.git"
+  },
+  "keywords": [
+    "twitter",
+    "yourfirstpr"
+  ],
+  "author": "Charlotte Spencer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourfirstpr/tweets/issues"
+  },
+  "homepage": "https://github.com/yourfirstpr/tweets#readme",
+  "devDependencies": {
+    "nyc": "^3.1.0",
+    "standard": "^5.2.2"
+  }
+}
