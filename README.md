@@ -14,7 +14,7 @@ Initial Criteria:
 Next Steps:
 * [x] Be able to specify how many tweets you receive back
 * [x] Make sure they are standalone tweets, not replies to anything
-* [ ] Get all the links out of the standalone tweets
+* [x] Get all the links out of the standalone tweets
 * [ ] Open an `.HTML` page with all the links from those tweets listed
 
 In the end, I'd like to be able to run a simple script that gets the last X tweets,
