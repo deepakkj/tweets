@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Links from {{account}}</title>
+</head>
+<body>
+  <h1>List of links from <a href="https://twitter.com/{{account}}">@{{account}}</a></h1>
+  <ul>
+    {{#each tweets}}
+      <li><a href="{{this}}">{{this}}</a></li>
+    {{/each}}
+  </ul>
+</body>
+</html>

@@ -27,7 +27,11 @@
     "standard": "^5.2.2"
   },
   "dependencies": {
+    "get-urls": "^5.0.0",
+    "handlebars": "^4.0.2",
+    "hapi": "^10.0.0",
+    "inert": "^3.0.1",
     "twitter": "^1.2.5",
-    "get-urls": "^5.0.0"
+    "vision": "^3.0.0"
   }
 }
