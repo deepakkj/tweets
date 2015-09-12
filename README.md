@@ -12,12 +12,12 @@ Initial Criteria:
 * [x] Running `node tweets.js` will fetch all tweets from the [@yourfirstpr](https://twitter.com/yourfirstpr) Twitter account
 
 Next Steps:
-* [ ] Be able to specify how many tweets you receive back (last 10 tweets)
-* [ ] Make sure they are standalone tweets, not replies to anything
+* [x] Be able to specify how many tweets you receive back
+* [x] Make sure they are standalone tweets, not replies to anything
 * [ ] Get all the links out of the standalone tweets
 * [ ] Open an `.HTML` page with all the links from those tweets listed
 
-In the end, I'd like to be able to run a simple script that gets the last ten tweets,
+In the end, I'd like to be able to run a simple script that gets the last X tweets,
 extracts the links from those tweets, writes them to an .HTML page where I can open them all
 or just open all of them in the browser from the command line. This is so I can
 check to see whether Issues I've posted have had successful PR's. If they haven't, 
