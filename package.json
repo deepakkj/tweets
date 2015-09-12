@@ -27,6 +27,7 @@
     "standard": "^5.2.2"
   },
   "dependencies": {
-    "twitter": "^1.2.5"
+    "twitter": "^1.2.5",
+    "get-urls": "^5.0.0"
   }
 }

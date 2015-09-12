@@ -6,6 +6,7 @@ To get credentials, go here: https://apps.twitter.com
 */
 
 var Twitter = require('twitter')
+var getUrls = require('get-urls')
 var Tweets = require('./lib/helpers/tweets')
 
 var client = new Twitter({
@@ -20,12 +21,21 @@ var params = {
   count: process.env.TWEET_COUNT, exclude_replies: true, include_rts: false
 }
 
-function printTweets (tweets) {
+// Get all the URLs in each of the tweets and store them in an array
+function storeUrls(tweets) {
+  var urls =[];
+
   tweets.forEach(function (tweet) {
-    console.log(tweet.text)
+    getUrls(tweet.text).forEach(function(url) {
+      urls.push(url)
+    })
   })
+
+  return console.log(urls)
 }
 
 var tweets = Tweets.get(client, 'statuses/user_timeline', params)
-
-tweets.then(printTweets)
+tweets.then(storeUrls).catch(function(err) {
+    console.log(err)
+    process.exit(1)
+})
