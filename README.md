@@ -1,3 +1,5 @@
+![Code of Conduct](https://img.shields.io/badge/%E2%88%9A-Code%20of%20Conduct-orange.svg) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Dependencies](https://david-dm.org/yourfirstpr/tweets.svg)  ![Node Version 4](https://img.shields.io/badge/node-4.x.x-ff69b4.svg)
+
 # Tweets
 
 A script to get all the tweets from the [@yourfirstpr](https://twitter.com/yourfirstpr) twitter account
