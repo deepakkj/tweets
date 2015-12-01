@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/yourfirstpr/tweets#readme",
   "devDependencies": {
-    "nyc": "^3.1.0",
-    "standard": "^5.2.2"
+    "nyc": "^4.0.1",
+    "standard": "^5.4.1"
   },
   "dependencies": {
     "get-urls": "^5.0.0",
-    "handlebars": "^4.0.2",
-    "hapi": "^10.0.0",
-    "inert": "^3.0.1",
+    "handlebars": "^4.0.5",
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0",
     "twitter": "^1.2.5",
     "vision": "^3.0.0"
   }
